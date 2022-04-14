@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+hr {
+  height: 2px;
+  color: black;
+}
+
+body {
+  background-color: rgb(242, 234, 234);
+  overflow-x:hidden;
+}
+button{
+  cursor: pointer;
+}
+/* adding styles to navbar  */
+.navbar {
+  z-index: 2;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(50, 156, 77);
+  padding: 0px 40px;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links li a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0px 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin: 0px 10px;
+}
+
+.logo li {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.wrapper {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Arimo";
+}
+
+
+
+.container {
+    width: 65%;
+    padding: 5% 10%;
+    background: rgb(2, 35, 2);
+    color:white;
+    opacity: 1;
+}
+
+h1 {
+    align-self: center;
+}
+
+form {
+    width: 100%;   
+}
+
+form input {
+    width: 100%;
+    min-height: 25px;
+    border: 0;
+    font-size: 2rem;
+    font-family: "Arimo";
+    margin: 26px 0px;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+form label{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+form  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 26px;
+}
+
+
+.name {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
+    
+}
+.name div {
+    width: 45%;
+}
+
+.address-info {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.address-info div {
+    width: 30%;
+}
+
+.cc-info {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.cc-info div {
+    width: 45%;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+        
+    }
+
+.btns  button {
+    margin: 20px auto;
+    height: 53px;
+    width: 70%;
+    color: white;
+    background-color: rgb(11, 30, 241);
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+body::before{
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100vw;
+  height: 200vh;
+  content: "";
+  background-image: url(./bgimg2.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  position: absolute;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+}
+
+/* adding styles to footer  */
+footer {
+  z-index: 2;
+    padding:50px 0px;
+    font-family: "Ubuntu", sans-serif;
+    background:white;
+    
+  }
+  footer > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  footer h2 ,footer h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0px;
+  }
+  footer li{
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 1.3rem;
+    color:gray
+  }
+  footer a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:gray;
+  }
+  footer h1{
+    font-size: 2rem;
+  }
+    
+    
